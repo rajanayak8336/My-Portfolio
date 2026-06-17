@@ -1,0 +1,23 @@
+
+.resume-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.resume-buttons {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}

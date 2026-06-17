@@ -1,0 +1,36 @@
+website name: web3forms
+
+//Contact Form to Email service key generated here acceess key to work
+
+
+ab6dcc0c-25f4-4855-90c3-c47bda5a50a3
+
+
+
+
+
+//  react code pasting in in form to accees <form onSubmit={onSubmit} /> to work
+
+
+    const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "ab6dcc0c-25f4-4855-90c3-c47bda5a50a3");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+    }
+  };
