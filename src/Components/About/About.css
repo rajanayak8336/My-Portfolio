@@ -9,8 +9,9 @@
 }
 
 .about-left img {
-    width: 250px;
+    width: 350px;
     height: 350px;
+    border-radius: 50%;
 }
 
 .about-title {
@@ -90,7 +91,19 @@
     align-items: center;
     gap: 10px;
     transition: 0.5s;
+    cursor: pointer;
 }
+.about-achievement a{
+    text-decoration: none;
+}
+.about-achievement p{
+    color: white;
+}
+
+.about-achievement a h1{
+    text-align: center;
+}
+
 
 .about-achievement h1 {
     font-size: 60px;
@@ -120,6 +133,7 @@
     transform: scale(1.10);
     transition: 0.5s;
 }
+
 
 @media(max-width:768px) {
     .about {

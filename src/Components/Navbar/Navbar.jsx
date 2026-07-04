@@ -40,7 +40,7 @@ const Navbar = () => {
         <li><a href="#contact"><p onClick={()=>setMenu("contact")} >Contact</p> </a> { menu === "contact" ? <img src={nav_underline}  alt='' />:<></> } </li>
       </ul>
 
-      <div className="nav-connect" ><a href="#contact">Connect With Me</a></div>
+      <div className="nav-connect" ><a href="https://github.com/rajanayak8336" target='_blank'>Git Hub</a></div>
 
     </div>
   )

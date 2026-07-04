@@ -108,14 +108,15 @@
     background: linear-gradient(264deg,#d30e98 -5.09%,#2aa5ed 130%);
     font-size: 22px;
     padding: 20px 55px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .contact-submit:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
+    
+    background: linear-gradient(264deg,#436780,#4d6d80,#b6abab);
 }
 
 

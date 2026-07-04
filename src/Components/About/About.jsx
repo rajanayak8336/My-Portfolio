@@ -1,10 +1,17 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import about_profile from '../../assets/about_profiles.jpeg'
+import about_profile from '../../assets/about_profile.png'
+import CodeAlpha from '../Pages/Internships'
+import Internships from '../Pages/Internships'
+import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 const About = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div id='about' className='about'>
             <div className="about-title">
@@ -36,18 +43,22 @@ const About = () => {
             <div className="about-achievements">
                 <div className="about-achievement">
                     <h1>Fresher</h1>
-                    <p>Intern</p>
+                    <p>Experience</p>
                 </div>
                 <hr />
-                <div className="about-achievement">
-                    <h1>4+</h1>
-                    <p>Projects Completed</p>
-                </div>
-                <hr />
-                <div className="about-achievement">
+                <div className="about-achievement" >
+                    <a href="#work">
                     <h1>10+</h1>
-                    <p>Assessments</p>
+                    <p>Projects Completed</p>
+                    </a>
                 </div>
+                <hr />
+                
+                <div className="about-achievement"  onClick={() => navigate("/Internships")} target="_blank" rel="noreferrer" >
+                    <h1>3</h1>
+                    <p>Internships Completed</p>
+                </div>
+                
             </div>
         </div>
     )
