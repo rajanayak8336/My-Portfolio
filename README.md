@@ -162,8 +162,8 @@ Frontend Developer
 
 ## 📬 Contact
 
-* Email: *Add your email*
-* LinkedIn: *Add your LinkedIn profile*
+* Email: rajanayak8336@gmail.com
+* LinkedIn: https://www.linkedin.com/in/raja-nayak/
 * GitHub: https://github.com/rajanayak8336
 
 ---
