@@ -8,8 +8,8 @@ const internships = [
     duration: "Jun 2026 - Jul 2026",
     description:"Developed responsive websites using HTML, CSS, JavaScript and React.js.",
     skills: ["HTML", "CSS", "JavaScript", "React.js"],
-    certificate: "",
-    lor: "",
+    certificate: "/DecodeLabs_Internship_Certificate.pdf",
+    lor: "/Letter_of_Recommendation.pdf",
   },
   {
     company: "CODE ALPHA",
@@ -19,16 +19,8 @@ const internships = [
     skills: ["HTML", "CSS", "JavaScript", "React.js"],
     certificate: "",
     lor: "",
-  },
-  {
-    company: "OASIS INFOBYTE",
-    role: "Web Development and Designing",
-    duration: "Jun 2026 - Jul 2026",
-    description: "Developed responsive websites using HTML, CSS, JavaScript and React.js.",
-    skills: ["HTML", "CSS", "JavaScript", "React.js"],
-    certificate: "",
-    lor: "",
-  },
+  }
+  
 ];
 
 const Internships = () => {

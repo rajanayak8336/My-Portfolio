@@ -83,7 +83,7 @@ const About = () => {
                     className="about-achievement"
                     onClick={() => navigate("/Internships")}
                 >
-                    <h1>3</h1>
+                    <h1>2</h1>
                     <p>Internships Completed</p>
                 </div>
 
