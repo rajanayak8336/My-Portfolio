@@ -17,8 +17,8 @@ const internships = [
     duration: "Jun 2026 - Jul 2026",
     description:"Developed responsive websites using HTML, CSS, JavaScript and React.js.",
     skills: ["HTML", "CSS", "JavaScript", "React.js"],
-    certificate: "",
-    lor: "",
+    certificate: "/Certificate_Raja Nayak Googulothu.pdf",
+    lor: "/LOR_Raja Nayak Googulothu.pdf",
   }
   
 ];
