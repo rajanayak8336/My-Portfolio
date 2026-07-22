@@ -6,7 +6,7 @@ A modern, responsive, and interactive personal portfolio website developed to sh
 
 ## 🚀 Live Demo
 
-🔗 **Live Website:** https://my-portfolio-tnun.onrender.com
+🔗 **Live Website:** https://my-portfolio-9i02.onrender.com
 
 📂 **GitHub Repository:**  https://github.com/rajanayak8336/My-Portfolio.git
 
